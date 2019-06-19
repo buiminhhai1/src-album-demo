@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/selectAlbum"
+        android:title="Select"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/deleteAlbum"
+    android:title="Delete"
+    android:orderInCategory="100"
+    android:visible="false"
+    app:showAsAction="never"
+    />
+    <item android:id="@+id/createSlideshowAlbum"
+        android:title="Create Slideshow"
+        android:orderInCategory="100"
+        android:visible="true"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/backAlbum"
+        android:title="Back"
+        android:visible="false"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+</menu>

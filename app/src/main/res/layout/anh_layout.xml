@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:verticalScrollbarPosition="right"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <android.support.v7.widget.RecyclerView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lvimg"
+                app:fastScrollEnabled="true"
+                app:fastScrollHorizontalThumbDrawable="@drawable/fast_scroll_thumb"
+                app:fastScrollHorizontalTrackDrawable="@drawable/fast_scroll_track"
+                app:fastScrollVerticalThumbDrawable="@drawable/fast_scroll_thumb"
+                app:fastScrollVerticalTrackDrawable="@drawable/fast_scroll_track"
+                android:scrollbarSize="10dp"
+                >
+            </android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
+
+
+

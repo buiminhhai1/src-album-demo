@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/Select"
+        android:title="Select"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item android:id="@+id/createalbum"
+        android:title="Create album"
+        android:orderInCategory="100"
+        android:visible="false"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/delete"
+        android:title="Delete"
+        android:orderInCategory="100"
+        android:visible="false"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/addalbum"
+        android:title="Add album"
+        android:orderInCategory="100"
+        android:visible="false"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/createSlideshow"
+        android:title="Create Slideshow"
+        android:orderInCategory="100"
+        android:visible="false"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/back"
+        android:title="Back"
+        android:visible="false"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+</menu>
